@@ -4,5 +4,5 @@ A starter template for Babel, Rollup And Typescript, with unit testing (Jest), p
 
 # installation
 
-clone: git clone https://github.com/dudiharush/rollup-typescript-babel-starter.git&nbsp;
+clone: git clone https://github.com/dudiharush/rollup-typescript-babel-starter.git<br />
 install deps: npm i (in project directory)
