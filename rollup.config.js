@@ -7,10 +7,12 @@ const extensions = [
   '.js', '.jsx', '.ts', '.tsx',
 ];
 
+const external = Object.keys(pkg.dependencies || {}).concat(Object.keys(pkg.peerDependencies || {}))
+
 export default {
   input: './src/index.ts',
 
-  external: [],
+  external,
 
   plugins: [
     // Allows node_modules resolution
